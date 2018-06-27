@@ -15,6 +15,7 @@
 		B2AE6A7B20E2DA78009E9577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE6A7A20E2DA78009E9577 /* main.m */; };
 		B2AE6A8520E2DA78009E9577 /* TipCalculaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE6A8420E2DA78009E9577 /* TipCalculaterTests.m */; };
 		B2AE6A9020E2DA78009E9577 /* TipCalculaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE6A8F20E2DA78009E9577 /* TipCalculaterUITests.m */; };
+		B2AE6A9F20E300AD009E9577 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE6A9E20E300AD009E9577 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B2AE6A8B20E2DA78009E9577 /* TipCalculaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AE6A8F20E2DA78009E9577 /* TipCalculaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculaterUITests.m; sourceTree = "<group>"; };
 		B2AE6A9120E2DA78009E9577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AE6A9D20E300AD009E9577 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B2AE6A9E20E300AD009E9577 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		B2AE6A5F20E2DA76009E9577 = {
 			isa = PBXGroup;
 			children = (
+				B2AE6A9D20E300AD009E9577 /* SettingsViewController.h */,
+				B2AE6A9E20E300AD009E9577 /* SettingsViewController.m */,
 				B2AE6A6A20E2DA76009E9577 /* TipCalculater */,
 				B2AE6A8320E2DA78009E9577 /* TipCalculaterTests */,
 				B2AE6A8E20E2DA78009E9577 /* TipCalculaterUITests */,
@@ -265,6 +270,7 @@
 				B2AE6A7020E2DA76009E9577 /* ViewController.m in Sources */,
 				B2AE6A7B20E2DA78009E9577 /* main.m in Sources */,
 				B2AE6A6D20E2DA76009E9577 /* AppDelegate.m in Sources */,
+				B2AE6A9F20E300AD009E9577 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M963N7PF23;
 				INFOPLIST_FILE = TipCalculater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M963N7PF23;
 				INFOPLIST_FILE = TipCalculater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
